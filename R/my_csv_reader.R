@@ -11,6 +11,8 @@
 #' \dontrun{
 #' my_csv_reader("..")
 #' }
+
+
 my_csv_reader <- function(dir_path=getwd()){
   assert_that(is.dir(dirname(dir_path)))
   assert_that(is.readable(dirname(dir_path)))
